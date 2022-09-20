@@ -46,7 +46,7 @@ public class ValidationItemControllerV2 {
         return "validation/v2/addForm";
     }
 
-//    @PostMapping("/add")
+    //    @PostMapping("/add")
     public String addItemV1(@ModelAttribute Item item, BindingResult bindingResult , RedirectAttributes redirectAttributes , Model model) {
 
         // model 에 담기는 객체명 , 객체의 필드명 , 메세지내용
@@ -90,7 +90,7 @@ public class ValidationItemControllerV2 {
         return "redirect:/validation/v2/items/{itemId}";
     }
 
-//    @PostMapping("/add")
+    //    @PostMapping("/add")
     public String addItemV2(@ModelAttribute Item item, BindingResult bindingResult , RedirectAttributes redirectAttributes , Model model) {
 
         // model 에 담기는 객체명 , 객체의 필드명 , 메세지내용
@@ -133,7 +133,7 @@ public class ValidationItemControllerV2 {
         return "redirect:/validation/v2/items/{itemId}";
     }
 
-//    @PostMapping("/add")
+    //    @PostMapping("/add")
     public String addItemV3(@ModelAttribute Item item, BindingResult bindingResult , RedirectAttributes redirectAttributes , Model model) {
 
         // model 에 담기는 객체명 , 객체의 필드명 , 메세지내용
@@ -177,7 +177,7 @@ public class ValidationItemControllerV2 {
     }
 
 
-//    @PostMapping("/add")
+    //    @PostMapping("/add")
     public String addItemV4(@ModelAttribute Item item, BindingResult bindingResult , RedirectAttributes redirectAttributes , Model model) {
 
         // model 에 담기는 객체명 , 객체의 필드명 , 메세지내용
